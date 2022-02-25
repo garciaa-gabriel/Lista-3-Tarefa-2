@@ -31,7 +31,7 @@ public class NovaActivity extends AppCompatActivity {
                 Intent returnIntent = new Intent(NovaActivity.this, MainActivity.class);
                 returnIntent.putExtra("name", name);
                 setResult(RESULT_OK, returnIntent);
-
+                finish();
             }
         });
 
